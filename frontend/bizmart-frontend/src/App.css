@@ -1,0 +1,14 @@
+.app-container {
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #1f4e79;
+}
+
+h2 {
+  margin-top: 20px;
+}

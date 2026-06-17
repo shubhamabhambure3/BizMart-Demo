@@ -1,0 +1,87 @@
+.login-page {
+    min-height: 100vh;
+    display: flex;
+}
+
+.login-left {
+    flex: 1;
+    background: #0f172a;
+    color: white;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login-right {
+    flex: 1;
+    background: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.brand-logo {
+    width: 160px;
+    margin-bottom: 24px;
+}
+
+.login-left h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.login-logo {
+    width: 160px;
+    margin-bottom: 24px;
+}
+
+.feature-list {
+    margin-top: 30px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.feature-list li {
+    margin-bottom: 12px;
+    font-size: 1.05rem;
+}
+
+.feature-list li::before {
+    content: "✓ ";
+    color: #22c55e;
+    font-weight: bold;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 450px;
+    border: none;
+    border-radius: 16px;
+}
+
+@media (max-width: 992px) {
+    .login-left {
+        display: none;
+    }
+
+    .login-right {
+        flex: 1;
+    }
+}
+
+.login-btn {
+    background-color: #0f172a;
+    border-color: #0f172a;
+    color: white
+}
+
+.login-btn:hover {
+    background-color: #1e293b;
+    border-color: #1e293b;
+    color: white;
+}
